@@ -16,13 +16,13 @@ const StudenLists = () => {
     ]
   })
 
-  const deleteItemHandler = (deleteIndex) => {
-    const data = [...studentState.students];
-    data.splice(deleteIndex, 1);
-    setStudentState({
-      students: data
-    });
-  }
+  // const deleteItemHandler = (deleteIndex) => {
+  //   const data = [...studentState.students];
+  //   data.splice(deleteIndex, 1);
+  //   setStudentState({
+  //     students: data
+  //   });
+  // }
 
   const deleteItemHandlerByKey = (deleteKey) => {
     const data = [...studentState.students];
