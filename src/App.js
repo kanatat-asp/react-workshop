@@ -44,7 +44,7 @@ class App extends Component {
 
     return (
         <div className="App">
-          {/* <p className="App-header">Header</p> */}
+          <p className="App-header">Header</p>
           <p className="card">
             User-End Content
           </p>
